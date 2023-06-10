@@ -3,6 +3,8 @@ Master Readme File
 ==================
 # Table of Contents
 
+Other than this statement, this document was automatically generated from requests sent to openai based on src/templates.json
+
 ## Fundamentals Of Python 
 --------------------
 ### Working With Python
