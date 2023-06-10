@@ -1,0 +1,191 @@
+{
+    "books":
+    [
+        {
+            "name": "Fundamentals of Python",            
+            "chapters":
+            [
+                {
+                    "name": "working with python",
+                    "helper_prompt_head": "Write a how to course with code examples on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects":
+                    [
+                        "the interpreter in powershell",
+                        "interpretter options",
+                        "pip",
+                        "venv",
+                        "if __name__ == '__main':",
+                        "main function input parameters such as kwargs",
+                        "data types",
+                        "the GIL"
+                    ]
+                },
+                {
+                    "name": "atomic types",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects":
+                    [
+                        "arrays and multidimensional arrays",
+                        "strings",
+                        "numbers including integers, floats, doubles, int16, int23, float16, etc.",
+                        "hexademical data",
+                        "binary data",
+                        "pointers",
+                        "objects",
+                        "tuples",
+                        "bytes objects"
+                    ]
+                },
+                {
+                    "name": "operations",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects":
+                    [
+                        
+                        "selection statements",
+                        "ternary operators",
+                        "while loops",
+                        "loops of the form: for i in array",
+                        "loops of the form: for i to n i < len(array) i++",
+                        "switch statements",
+                        "string concatenation",
+                        "object concatenation",
+                        "variable dereferencing",
+                        
+                        "functions",
+                        "function parameters",
+                        "nested functions",
+                        "the ~ operator",
+                        
+                        "function scoping",
+                        "local scoping",
+                        "global scoping",
+                        
+                        "file input and output",
+                        "binary file input",
+                        "csv file input",
+                        "microsoft office documents file input",
+                        "modulo operators",
+                        "list multiplication",
+                        "hexademical",
+                        "logging",
+                        "modules",
+                        "multiplication and division",
+                        "addition and subtraction"
+                    ]
+                },
+                {
+                    "name": "common standard modules",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects":
+                    [
+
+                        "the typing module",
+                        "the logging module",
+                        "threading",
+                        "command line options"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Object Oriented Python",
+            "chapters":
+            [
+                {
+                    "name": "object oriented basics",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects":
+                    [
+                        "classes",
+                        "magic methods",
+                        "decorators",
+                        "constructors",
+                        "destructors",
+                        "getters and setters",
+                        "getters and setters with @property",
+                        "private methods and attributes",
+                        "protected methods and attributes",
+                        "public methods and attributes",
+                        "copy constructors",
+                        "deep vs shallowing copying",
+                        "overloaded assignment operators",
+                        "overloaded equality operators",
+                        "parameterized functions",
+                        "inheritance",
+                        "polymorphism"
+                    ]
+                },
+                {
+                    "name":"standard objects",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects": 
+                    [
+                        "queues",
+                        "stacks",
+                        "linked-lists",
+                        "doubly linked lists",
+                        "dictionaries",
+                        "trees",
+                        "forests"
+                    ]
+                },
+                {
+                    "name":"design patterns",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects": 
+                    [
+                        "abstract base class design patterns",
+                        "singleton design patterns",
+                        "interface design patterns",
+                        "factory design patterns",
+                        "model view controller design patterns"
+                    ]
+                },
+                {
+                    "name":"common open source modules",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects": 
+                    [
+                        "pandas",
+                        "numpy",
+                        "matplotlib"
+                        
+                    ]
+                },
+
+                {
+                    "name":"algorithms",
+                    "helper_prompt_head": "Write a how to course on using",
+                    "helper_prompt_tail": "in python version 3.10",
+                    "target_characters_per_subject":600,
+                    "subjects": 
+                    [
+                        "Prims minimal spanning tree",
+                        "Djikstras",
+                        "Fouerier Transform",
+                        "Levenstein Distance"
+                    ]
+                }
+            ]
+
+        }
+    ]
+}
