@@ -78,8 +78,8 @@ class ApplicationLogFormatter(logging.Formatter):
 
 class InputHandler:
     def __init__(self):
-        logger = ApplicationLogFormatter(__name__ + '.' + self.__class__.__name__)
-        self.logger = logger.buildLogger()
+        logger = ApplicationLogFormatter()
+        self.logger = logger.buildLogger(__name__ + '.' + self.__class__.__name__)
 
 
     def load_books_config(self) -> typing.List[Book]:
@@ -138,8 +138,8 @@ class OutputHandler:
         '''
         '''
 
-        logger = ApplicationLogFormatter(__name__ + '.' + self.__class__.__name__)
-        self.logger = logger.buildLogger()
+        logger = ApplicationLogFormatter()
+        self.logger = logger.buildLogger(__name__ + '.' + self.__class__.__name__)
 
     def write_chat_result(self, result:GptResultType) -> None:
         '''
@@ -251,8 +251,8 @@ class OutputHandler:
 
 class OpenAiClient:
     def __init__(self):
-        logger = ApplicationLogFormatter(__name__ + '.' + self.__class__.__name__)
-        self.logger = logger.buildLogger()
+        logger = ApplicationLogFormatter()
+        self.logger = logger.buildLogger(__name__ + '.' + self.__class__.__name__)
 
     def send_to_chatgpt(self, books:typing.List[Book], subject_stop_index = 0) -> GptResultType:
         '''

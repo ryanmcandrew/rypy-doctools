@@ -11,8 +11,8 @@ def main():
                 - export the chat result in a file
 
     '''
-    logger = ApplicationLogFormatter(__name__)
-    logger = logger.buildLogger()
+    logger = ApplicationLogFormatter()
+    logger = logger.buildLogger(__name__)
 
     input_handler = InputHandler()
     output_handler = OutputHandler()
