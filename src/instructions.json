@@ -6,34 +6,34 @@
             "chapters":
             [
                 {
-                    "name": "working with python",
-                    "helper_prompt_head": "Write a how to course with code examples on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "name": "basics",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects":
                     [
-                        "the interpreter in powershell",
+                        "the interpreter",
                         "interpretter options",
                         "pip",
                         "venv",
-                        "if __name__ == '__main':",
+                        "if __name__ == '__main__':",
                         "main function input parameters such as *args and **kwargs",
                         "data types",
                         "print statements",
-                        "importing",
+                        "imports",
                         "the GIL"
                     ]
                 },
                 {
-                    "name": "atomic types",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "name": "types",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects":
                     [
                         "arrays and multidimensional arrays",
                         "strings",
-                        "numbers including integers, floats, doubles, int16, int23, float16, etc.",
+                        "integers, floats, doubles, int16, int32, float16, etc.",
                         "hexademical data",
                         "binary data",
                         "pointers",
@@ -44,8 +44,8 @@
                 },
                 {
                     "name": "operations",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects":
                     [
@@ -53,11 +53,14 @@
                         "ternary operators",
                         "while loops",
                         "loops of the form: for i in array",
-                        "loops of the form: for i to n i < len(array) i++",
+                        "loops of the form: for int i; i < len(array); i++",
                         "switch statements",
                         "string concatenation",
                         "object concatenation",
-                        "variable dereferencing",
+                        "list multiplication",
+                        "variables",
+                        "const variables",
+                        "typedef",
                         
                         "functions",
                         "function parameters",
@@ -66,9 +69,10 @@
                         
                         "multiplication and division",
                         "addition and subtraction",
+                        "advanced math operations",
                         "the ~ operator",
-                        "bitwise operator",
-                        "modulo operators",
+                        "bitwise operators",
+                        "modulo operator",
                         
                         "function scoping",
                         "local scoping",
@@ -76,9 +80,9 @@
                         
                         "file input and output",
                         "binary file input and output",
-                        "csv file input",
-                        "microsoft office documents file input",
-                        "list multiplication"
+                        "csv file input output",
+                        "microsoft office documents file input output",
+                        "json input output"
                     ]
                 }
             ]
@@ -90,8 +94,8 @@
             [
                 {
                     "name": "object oriented basics",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects":
                     [
@@ -102,12 +106,13 @@
                         "destructors",
                         "getters and setters",
                         "private methods and attributes",
-                        "protected methods and attributes",
                         "public methods and attributes",
+                        "static methods and attributes",
                         "copy constructors",
                         "deep vs shallowing copying",
                         "overloaded assignment operators",
                         "overloaded equality operators",
+                        "overriding vs overloading",
                         "parameterized functions",
                         "inheritance",
                         "multiple inheritance",
@@ -116,8 +121,8 @@
                 },
                 {
                     "name":"standard objects",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects": 
                     [
@@ -132,8 +137,8 @@
                 },
                 {
                     "name":"design patterns",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects": 
                     [
@@ -145,13 +150,12 @@
                     ]
                 },
                 {
-                    "name": "common standard modules",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "name": "standard modules",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects":
                     [
-
                         "the typing module",
                         "the logging module",
                         "threading",
@@ -159,13 +163,20 @@
                         "datetime module",
                         "os module",
                         "sys module",
-                        "requests"
+                        "requests",
+                        "unittest"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "Advanced Python",
+            "chapters":
+            [
                 {
                     "name":"common open source modules",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects": 
                     [
@@ -173,26 +184,26 @@
                         "numpy",
                         "matplotlib",
                         "tensorflow",
-                        "pytorch",
-                        "tkinter"
+                        "tkinter",
+                        "testing using pytest",
+                        "performance testing using locust"
                     ]
                 },
-
+        
                 {
                     "name":"algorithms",
-                    "helper_prompt_head": "Write a how to course on using",
-                    "helper_prompt_tail": "in python version 3.10",
+                    "helper_prompt_head": "Write a detailed explanation for beginners of",
+                    "helper_prompt_tail": "in python version 3.10. Use as many code examples as possible. Return the answer in .md format.",
                     "target_characters_per_subject":600,
                     "subjects": 
                     [
                         "Prims minimal spanning tree",
                         "Djikstras",
-                        "Fouerier Transform",
+                        "Fourier Transform",
                         "Levenstein Distance"
                     ]
                 }
             ]
-
         }
     ]
 }
