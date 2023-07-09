@@ -1,6 +1,6 @@
 # readmes for projects contained
 
--  [pyTextToImage](qtGptImages/readme.md)
+-  [pyTextToImage](qt-gpt-images/readme.md)
     - a program to work with images via the openai api with others integrated later.
 
 -  [story-train](story-train/readme.md)

@@ -3,7 +3,7 @@ Master Readme File
 ==================
 # Table of Contents
 
-Other than this statement, this document was automatically generated from requests sent to openai based on src/instructions.json
+Other than this section, this document was automatically generated from requests sent to openai based on src/instructions.json. This program took about 20 seconds per defined subject to instruct chatgpt to write about. With what you can see below, it took a good deal of time to for the program to finish (about 30 minutes and then give some more). 
 
 ## Fundamentals Of Python 
 --------------------
