@@ -1,5 +1,8 @@
 # readmes for projects contained
 
+- [nces-scraper](nces-scraper/readme.md)
+  - open the school district search page, search each state, get the district and store it in a csv, get the schools in the district and store them in a separate csv.
+  
 -  [qt-gpt-images](qt-gpt-images/readme.md)
     - give a description, send it to gpt, get an image back. Contained in a pyQT5 application.
 
