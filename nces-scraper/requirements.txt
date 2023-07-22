@@ -1,0 +1,4 @@
+beautifulsoup4
+selenium
+html_table_parser
+pandas

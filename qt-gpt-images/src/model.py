@@ -1,13 +1,5 @@
 import typing
 
-class GptResultType:
-    def __init__(self):
-        self.question: typing.Optional[str] = None
-        self.answer: typing.Optional[str] = None
-        self.subject: typing.Optional[str] = None
-        self.book: typing.Optional[str] = None
-        self.chapter: typing.Optional[str] = None
-
 class MainModel:
     def __init__(self):
         self.description = None
